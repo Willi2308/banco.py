@@ -1,6 +1,6 @@
 from conta import Conta
 
 class ContaCorrente(Conta):
-    def _init_(self, numero, saldo, tipo):
-        super()._init_(numero, saldo)
+    def __init__(self, numero, saldo, tipo):
+        super().__init__(numero, saldo)
         self.tipo = tipo
