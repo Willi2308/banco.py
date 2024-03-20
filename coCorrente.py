@@ -1,4 +1,4 @@
-from .conta import Conta
+from conta import Conta
 
 class ContaCorrente(Conta):
     def _init_(self, numero, saldo, tipo):
